@@ -1,0 +1,13 @@
+$base-color: #74a774;
+$border-dark: rgba($base-color, 0.88);
+.btn{
+  background: $base-color;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover{
+    background: rgb(184, 37, 37);
+  }
+}
