@@ -12,7 +12,7 @@ const del = require('del');
 scss.compiler = require('node-sass');
 
 function styles(){
-  return src('./app/assets/scss/main.scss')
+  return src('./app/assets/scss/styles.scss')
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(autoprefixer({
       overrideBrowserslist:['last 10 version'],
